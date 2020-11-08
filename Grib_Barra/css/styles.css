@@ -1,0 +1,46 @@
+html{
+  background: #000046; 
+  background: -webkit-linear-gradient(to right, #000046, #1cb5e0); 
+  background: linear-gradient(to right, #000046, #1cb5e0); 
+}
+
+body{
+  background: #000046; 
+  background: -webkit-linear-gradient(to right, #000046, #1cb5e0); 
+  background: linear-gradient(to right, #000046, #1cb5e0); 
+  color: white;
+}
+
+header{
+  background: #000046; 
+}
+
+.bg-primary{
+	background-color: #000046!important; 
+}
+
+h1{
+	color: white;
+	padding: 40px;
+	width: 100%;
+	margin-top: 50px;
+	font-family: Times;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+video{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
