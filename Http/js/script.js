@@ -11,6 +11,8 @@ let bt3 = document.getElementById("b3");
 function volverInicio(){
    	his.style.display = "block";
     trac.style.display = "none";
+    version.style.display = "none";
+         ejem.style.display = "none" 
    }
    bt.addEventListener("click",volverInicio)
 
