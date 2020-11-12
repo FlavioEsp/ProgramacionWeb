@@ -16,7 +16,9 @@ function volverInicio(){
 
 function cambiarPagina1(){
          his.style.display = "none";
-         trac.style.display = "block";  
+         trac.style.display = "block"; 
+         version.style.display = "none";
+         ejem.style.display = "none" 
       }
       bt1.addEventListener("click", cambiarPagina1);
 
@@ -24,6 +26,7 @@ function cambiarPagina2(){
          his.style.display = "none";
          trac.style.display = "none";
          version.style.display = "block";
+         ejem.style.display = "none"
       }
       bt2.addEventListener("click", cambiarPagina2);
 
