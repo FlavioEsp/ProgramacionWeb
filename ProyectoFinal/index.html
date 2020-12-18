@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>VIVE</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="img/icon.jpg" sizes="32x32">
+
+</head>
+
+<body>
+
+	<div id="header">
+		<ul class="nav">
+			<li class="active"><a href="">Inicio</a>
+			<li id="in1"><a href="#con">Acerca de</a></li>
+			<li id="in2"><a href="#con">Contactanos</a></li>
+			<li id="in3"><a href="#log">Iniciar sesion</a></li>
+		</ul>
+	</div>
+	<section class="form-login" id="log" style="display: none;">
+		<h5>Login</h5>
+		<input class="controls" type="text" name="usuario" value="" placeholder="Usuario" style="color: white;">
+		<input class="controls" type="password" name="contrasena" value="" placeholder="Contraseña" style="color: white;">
+		<button id="inicia" style="background-color: #017BAB;">Ingresar</button>
+		<p><a href="#">Olvidaste tu contraseña?</a></p>
+	
+</section>
+    <section id="con" style="display: block;">
+    <div class="container-fluid">
+        <div style="max-width: 100%">
+            <div class="row">
+                <div class="col col-lg-8" style=" height: 100%;">
+                    <div class="imgFont" style="max-height: 650px; min-height: 650px">
+                        <div class="overlay overlay-bg"></div>
+                        <div class="txtImg">
+                            <h1 id="title" class="text-uppercase">VIVA</h1>
+                            <br>
+                            <div style="width: 80%;border: 1px solid;color: #EAEFF5;"></div>
+                            <br>
+                            <h4 id="cont">Busca los vuelos más baratos entre más de mil aerolíneas.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col form">
+                    <div class="containter">
+                        <div class="titForm">
+                            <p id="tit">Envianos tus comentarios</p>
+                            <p id="con">Complete el formulario y nos comunicaremos con usted a la brevedad..</p>
+                        </div>
+                        <form class="formInput form-wrap">
+                            <input class="form-control contentFrom" type="text" placeholder="Nombre">
+                            <input class="form-control contentFrom" type="email" placeholder="Email">
+                            <textarea class="form-control contentFrom" placeholder="Mensaje"></textarea>
+                            <button type="button" class="btn btn-primary btnsPrimary">Enviar mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+	<div id="azul">
+		<label>LLAMANOS 872-130-31-34    HORARIOS: 9:00AM - 8:00PM </label>
+	</div>
+	
+	<div id="gris">
+		<div class="contenedor">
+			<div class="col-sm">
+				<label>Elige una opcion</label>
+				<select name="opcion", id="opcion">
+					<option value="a">Solo ida</option>
+					<option value="b">Ida y vuelta</option>
+				</select>
+			</div>	
+		</div>
+
+		<div class="contenedor">
+			<div class="col-sm">
+				<label>Pasajeros</label>
+				<select name="opcion">
+					<option>Adultos</option>
+					<option>Estudiantes mayores de 18</option>
+					<option>Jovenes</option>
+					<option>Ninos 2 a 11</option>
+					<option>Bebes en asiento</option>
+					<option>Bebe en regazo</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="contenedor">
+			<div class="col-sm">
+				<label>Tipo de vuelo</label>
+				<select name="opcion" id="op">
+					<option>Clase economica</option>
+					<option>Clase ejecutiva</option>
+					<option>Primera clase</option>
+				</select>
+			</div>
+		</div>
+	</div>
+
+	<div id="gris2">
+		<div class="contenedor2">
+			<div class="col-sm">
+				<label>Origen</label>
+				<select name="opcion">
+					<option>Acapulco</option>
+					<option>Cancun</option>
+					<option>Chetumal</option>
+					<option>Ciudad del Carmen</option>
+					<option>Ciudad de Mexico</option>
+					<option>Ciudad Juarez</option>
+					<option>Cozumel </option>
+					<option>Guadalajara</option>
+					<option>Huatulco</option>
+					<option>Mazatlan</option>
+					<option>Puerto Vallarta</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="contenedor2">
+			<div class="col-sm">
+				<label>Destino</label>
+				<select name="opcion" id="opcion1">
+					<option value="AC">Acapulco</option>
+					<option value="CA">Cancun</option>
+					<option value="CH">Chetumal</option>
+					<option value="CC">Ciudad del Carmen</option>
+					<option value="CM">Ciudad de Mexico</option>
+					<option value="CJ">Ciudad Juarez</option>
+					<option value="CO">Cozumel </option>
+					<option value="GU">Guadalajara</option>
+					<option value="HU">Huatulco</option>
+					<option value="MA">Mazatlan</option>
+					<option value="PU">Puerto Vallarta</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="contenedor2">
+			<div class="col-sm">
+				<label>Año</label>
+				<select name="opcion">
+					<option>2020</option>
+					<option>2021</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="contenedor2">
+			<div class="col-sm">
+				<label>Mes</label>
+				<select name="opcion">
+					<option>Enero</option>
+					<option>Febrero</option>
+					<option>Marzo</option>
+					<option>Abril</option>
+					<option>Mayo</option>
+					<option>Junio</option>
+					<option>Julio</option>
+					<option>Agosto</option>
+					<option>Septiembre</option>
+					<option>Octubre</option>
+					<option>Noviembre</option>
+					<option>Diciembre</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="contenedor2">
+			<div class="col-sm">
+				<label>Dia</label>
+				<select name="opcion">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+					<option>11</option>
+					<option>12</option>
+					<option>13</option>
+					<option>14</option>
+					<option>15</option>
+					<option>16</option>
+					<option>17</option>
+					<option>18</option>
+					<option>19</option>
+					<option>20</option>
+					<option>21</option>
+					<option>22</option>
+					<option>23</option>
+					<option>24</option>
+					<option>25</option>
+					<option>26</option>
+					<option>27</option>
+					<option>28</option>
+					<option>29</option>
+					<option>30</option>
+				</select>
+			</div>
+		</div>
+		<div class="contenedor2">
+			<div class="col-sm">
+				<button id="boton" onclick="function()">Buscar</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="gris3">
+		<div  class="contenedor3">
+			<div>
+				<table border="1">
+					<thead>
+						<tr>
+							<th>Aerolineas</th>
+							<th>Destino</th>
+							<th>Fecha</th>
+							<th>Tipo de viaje</th>
+							<th>Precio</th>
+						</tr>
+					</thead>
+					<tbody id="tabla">
+						
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<div id="blanco" >
+		<img class="imagen" src="img/hotel.jpg" >
+		<img class="imagen" src="img/restaurant.jpg" >
+		<img class="imagen" src="img/playa.jpg">
+	</div>
+	<div class="contenedorD">
+		<img class="img" src="img/playita.jpg">
+		<div class="contenedorC">
+				<div class="cuadroR">
+					<p class="letra1">BIENVENIDO A VIVE</p><br/><br/>
+					<p class="letra2">No se pierda las atracciones como el paseo marítimo, el mercado de Hacarmel, Neve Tzedek y muchos más.</p><br/>
+					<br/>
+						<div class="boton1">
+							<input type="submit" name="enviar" value="LEER MAS">
+						</div>
+
+				</div>
+			</div>
+	</div>
+	</section>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

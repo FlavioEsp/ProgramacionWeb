@@ -1,0 +1,513 @@
+*
+{
+	margin: 0;/*separacion de elementos*/
+	padding: 0;/*margen dentro*/
+	box-sizing: border-box;/*ajuste al tamaño, no se haga mas grande*/
+}
+/*----------------------TIPOS DE LETRA--------------------------------------------*/
+@font-face
+{
+	src: url(../font/Montserrat-Regular.ttf);
+	font-family: Monserrat;
+}
+@font-face
+{
+	src: url(../font/Montserrat-Bold.ttf);
+	font-family: Monse;
+}
+@font-face
+{
+	src: url(../font/Montserrat-Medium.ttf);
+	font-family: Mons;
+}
+
+
+body
+{
+	background: #65fbfb;/*fondo de la pantalla*/
+	font-family: Arial;
+	color: white;/*COLOR DE LA LETRA*/
+}
+
+/*------------------FORMULARIO LOGIN-----------------------*/
+
+.form-login{
+	width: 400px;
+	height: 340px;
+	background: #4E4D4D;
+	margin: auto;
+	margin-top: 180px;
+	box-shadow: 7px 13px 37px #000;
+	padding: 20px 30px;
+	border-top: 4px solid #017BAB;
+	color: white;
+}
+
+.form-login h5{
+	margin: 0;
+	text-align: center;
+	height: 40px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid;
+	font-size: 20px;
+}
+
+.controls{
+	width: 100%;
+	border: 1px solid #017BAB;
+	margin-bottom: 15px;
+	padding: 11px 10px;
+	background: #252323;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.buttons{
+	width: 100%
+	height: 40px;
+	background: #017BAB;
+	border: none;
+	color: white;
+	margin-bottom: 16px;
+}
+
+.form-login p{
+	height: 40px;
+	text-align: center;
+	border-bottom: 1px solid;
+}
+
+.form-login a{
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.form-login a:hover{
+	text-decoration: underline;
+}
+/*------------------MENU DE NAVEGACION-----------------------*/
+
+#header{
+	margin: auto;
+	width: 500px;
+}
+
+ul, ol{
+	list-style: none;
+}
+
+.nav li a{
+	background-color: #00000;
+	color: #fffff;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+}
+
+.nav li a:hover{
+	background-color: #434343;
+}
+
+.nav > li{
+	float: left;
+}
+
+.nav li ul{
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+
+.nav li:hover > ul{
+	display: block;
+}
+
+.nav .active a{
+	background-color: orange;
+}
+
+/*----------------------IMAGEN------------------------------------------------*/
+.img
+{
+	width: 100%;/**/
+	left: 10%;
+	/*filter: blur(3px);/*Lo transparente*/
+}
+
+.imgFont {
+    background-image: url("../img/img2.jpg");
+    background-repeat: no-repeat, repeat !important;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-left: 150px;
+    color: white;
+    filter: blur(50%);
+}
+
+.overlay-bg {
+    background-color: rgba(4, 9, 30, 0.8);
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.txtImg {
+    width: 50%;
+    position: absolute;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+#title {
+    font-weight: bold;
+    max-width: 300px
+}
+
+#cont {
+    max-width: 450px
+}
+
+.form {
+    padding: 80px 50px 80px 50px;
+    background-color: #c2cbd2;
+    display: inline;
+}
+
+.formInput {
+    display: inline;
+}
+
+.titForm {
+    text-align: left;
+}
+
+#tit {
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.2em;
+    letter-spacing: .2px;
+    color: #00499f;
+}
+
+#con {
+    color: #54595f;
+    font-size: 20px;
+}
+
+.formInput {
+    display: inline;
+    background-color: #fff;
+    border-width: 0 0 0 0;
+    border-radius: 0 0 0 0;
+}
+
+.contentFrom {
+    margin-bottom: 20px;
+}
+
+.conenedorA{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+.texto
+{
+	font-family: Monse;
+	font-size: 100px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	margin: auto;
+	padding: 0% 32%;
+}
+
+/*------------------CONTENEDOR DENTRO DE LA IMAGEN-----------------------*/
+.conenedorB
+{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+.cuadro{
+	position: absolute;
+	top: 250px;
+	left: 440px;
+	margin: auto;
+	padding: 50px 15px 90px 15px;
+	max-width: 450px;
+	max-height: 400px;
+	background: white;
+	color: black;
+}
+
+.letraB
+{
+	text-align: center;;
+}
+
+.letraC
+{
+	text-align: center;
+	font-family: Monserrat;
+	font-size: 30px;
+	line-height: 2em;
+	letter-spacing: 1px;
+}
+.letraD
+{
+	text-align: center;
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+
+.boton input[type="submit"]
+{
+	text-decoration: inherit;
+	background-color: #fe90de;
+	border-radius: 25px;
+	border: 2px solid #fe90de;
+	line-height: 1;
+	text-align: center;
+	letter-spacing: 1px;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Monse;
+	font-size: 10px;
+	font-weight: 100px;
+	padding: 15px;
+	margin-left: 140px;
+}
+
+.boton input[type="submit"]:hover
+{
+	background: #65fbfb;
+	border: 2px solid #65fbfb;
+}
+/*
+.contenedor
+{
+	position: absolute;
+	background: white;
+	top: 100px;
+	left: 100px;
+
+}
+
+/*--------------------------LINEA AZUL------------------------------------------*/
+#azul
+{
+	background-color: #65fbfb;
+	padding: 50px 0px;	
+}
+
+#azul label
+{
+	font-family: Montserrat;
+	color: #333;
+	font-size: 30px;
+	padding: 0% 17%;
+}
+
+/*--------------------CUADROS GRISES--------------------------------------------*/
+#gris
+{
+	background-color: #333;
+	padding: 100px 50px 100px 10px;
+	/*display: inline-block;*/
+	width: 100%;
+	height: 50px;
+}
+
+#gris, #gris2, #gris3 label{
+	font-family: Montserrat;
+	color: #65fbfb;
+	font-size: 20px;
+}
+
+#gris2
+{
+	background-color: #333;
+	padding: 100px 50px 100px 10px;
+	/*display: inline-block;*/
+	width: 100%;
+	height: 50px;
+}
+
+#gris3
+{
+	background-color: #333;
+	padding: 100px 50px 100px 10px;
+	/*display: inline-block;*/
+	width: 100%;
+	height: 500px;
+}
+
+
+.contenedor
+{
+	position: relative;
+	display: inline-block;
+	width: 10%;
+	height: 50px;
+}
+
+.contenedor2
+{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	width: 10%;
+	height: 50px;
+}
+
+.contenedor3
+{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+table, td, th{
+	border: 2px solid orange;
+	padding: 20px;
+}
+
+#img1, #img2, #img3{
+	width: 50px;
+	height: 50px;
+}
+
+.contenedor1 .cuadroD{
+	position: absolute;
+	top: 10px;
+	left: 120px;/*posicion*/
+	margin: auto;
+	padding: 10px 60px 90px 60px;
+	max-width: 250px;
+	max-height: 200px;/*tamaño*/
+	background: #333;
+}
+
+.contenedor1 .cuadroE{
+	position: absolute;
+	top: 10px;
+	left: 540px;/*posicion**/
+	margin: auto;
+	padding: 10px 60px 90px 60px;
+	max-width: 250px;
+	max-height: 200px;/*tamaño*/
+	background: #333;
+}
+
+.cuadroF
+{
+	position: relative;
+	top: 10px;
+	left: 430px;/*posicion**/
+	margin: auto;
+	padding: 10px 60px 90px 60px;
+	max-width: 300px;
+	max-height: 200px;/*tamaño*/
+	background: #333;
+}
+
+/*---------------------LINEA BLANCA----------------------------------------*/
+#blanco
+{
+	background-color: white;
+	padding: 80px 0px;
+}
+
+.imagen
+{
+	width: 30%;/**/
+	left: 30%;
+	padding: 0px 0px 0px 120px;
+}
+
+/*---------------------------ULTIMO CUADRO----------------------------------*/
+.conenedorD{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+.conenedorC{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+.cuadroR{
+	position: absolute;
+	top: 2200px;
+	left: 380px;
+	margin: auto;
+	padding: 50px 40px 90px 40px;
+	max-width: 650px;
+	max-height: 300px;
+	background: #fe90de;
+	color: black;
+}
+
+.letra1
+{
+	font-family: Monse;
+	text-align: center;
+	font-size: 40PX;
+	color: white;
+}
+
+.letra2
+{
+	text-align: center;
+	font-family: Monserrat;
+	font-size: 15px;
+	line-height: 2em;
+	letter-spacing: 1px;
+	color: white;
+}
+
+.boton1 input[type="submit"]
+{
+	text-decoration: inherit;
+	background-color: white;
+	border-radius: 25px;
+	border: 2px solid white;
+	text-align: center;
+	display: inline-block;
+	font-family: Mons;
+	font-size: 20px;
+	font-weight: 100px;
+	padding: 10px;
+	margin-left: 220px;
+	color: gray;
+}
+
+.boton1 input[type="submit"]:hover
+{
+	background: #fe90de;
+	color: white;
+}
